@@ -1,6 +1,6 @@
 USE ecommerce;
 
-INSERT INTO Cliente(primeiro_nome, inicial_s_nome, sobrenome, CPF, Endereco)
+INSERT INTO Cliente(primeiro_nome, inicial_s_nome, sobrenome, CPF, endereco)
 VALUES ('Satoru', 'C', 'Gojo', '12345678900', 'Shibuya'),
        ('Suguru', 'S', 'Geto', '98765432100', 'Shibuya'),
        ('Itadori', 'K', 'Yuuji', '12312312300', 'Tokyo'),
@@ -9,7 +9,7 @@ VALUES ('Satoru', 'C', 'Gojo', '12345678900', 'Shibuya'),
 
 INSERT INTO Produto(nome_produto, classificacao_para_criancas, categoria, avaliacao, tamanho)
 VALUES ('PC Gamer', false, 'eletrônico', 8.5, 'Grande'),
-       ('Calça', true, 'vestuário', 4.8, 'M'),
+       ('Calça', true, 'vestuário', 4.8, 'Médio'),
        ('Bola', true, 'brinquedos', 2.2, 'Pequeno'),
        ('Notebook', false, 'eletrônico', 2.1, 'Médio'),
        ('Transformers', true, 'brinquedos', 1.9, 'Único');
