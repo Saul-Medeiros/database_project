@@ -26,7 +26,7 @@ CREATE TABLE Cliente(
     inicial_s_nome CHAR(3) NULL,
     sobrenome VARCHAR(20) NOT NULL,
     CPF CHAR(11) NOT NULL,
-    Endereco VARCHAR(50) NOT NULL,
+    endereco VARCHAR(50) NOT NULL,
     PRIMARY KEY (idCliente),
     CONSTRAINT unique_cpf_cliente UNIQUE (CPF)
 );
